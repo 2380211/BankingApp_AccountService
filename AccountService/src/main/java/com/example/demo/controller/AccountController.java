@@ -25,6 +25,7 @@ public class AccountController {
 	public String saveAccount(@RequestBody Account account) {
 		System.out.println("Account has been created");
 		System.out.println("Account has been created");
+		System.out.println("test1");
 		return service.createAccount(account);
 		
 	}
